@@ -1,5 +1,6 @@
 name: cyclop
-description: An experimental flutter colorpicker with an optional eyedropper tool ( Material colors swatches, AHSL, ARGB and custom swatches library )
+description: An experimental flutter colorpicker with an optional eyedropper
+  tool ( Material colors swatches, AHSL, ARGB and custom swatches library )
 version: 0.5.2
 homepage: https://github.com/rxlabz/cyclop
 
@@ -7,16 +8,17 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  basics: ^0.6.0
   flutter:
     sdk: flutter
+  flutter_platform_widgets: ^1.20.0
   image: ^3.0.5
   quiver: ^3.0.1
-  basics: ^0.6.0
 
 dev_dependencies:
+  flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.4
 
 flutter:
   assets:

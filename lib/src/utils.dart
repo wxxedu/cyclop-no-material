@@ -1,6 +1,4 @@
 import 'dart:ui' as ui;
-
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:image/image.dart' as img;
@@ -8,10 +6,6 @@ import 'package:image/image.dart' as img;
 //bool get isPhoneScreen => !(screenSize.shortestSide >= 600);
 
 Size get screenSize => ui.window.physicalSize / ui.window.devicePixelRatio;
-
-extension Screen on MediaQueryData {
-  bool get isPhone => size.shortestSide < 600;
-}
 
 extension Chroma on String {
   /// converts string to [Color]
